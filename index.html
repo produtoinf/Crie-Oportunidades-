@@ -204,6 +204,15 @@ h1{font-size:58px}
 .card.feature-art:after{display:none;}
 .card.feature-art img{filter:none !important;object-fit:cover;object-position:center;width:100%;height:100%;}
 
+@media(max-width:560px){
+  .card.feature-art{min-height:auto;aspect-ratio:1/1;background:#080808;}
+  .card.feature-art img{object-fit:contain;object-position:center top;background:#080808;}
+  .buyfloat{display:none;}
+  .gallery-copy{left:18px;right:18px;bottom:18px;}
+  .gallery-copy strong{font-size:21px;line-height:1.1;}
+  .section{padding:72px 0;}
+}
+
 /* Frases douradas em Serif Bold Italic */
 h1 span,
 h2 span,
